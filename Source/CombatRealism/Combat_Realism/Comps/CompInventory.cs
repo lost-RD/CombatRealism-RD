@@ -394,6 +394,7 @@ namespace Combat_Realism
             // Remove items from inventory if we're over the bulk limit
             while(availableBulk < 0 && container.Count > 0)
             {
+                Log.Message("CR-RD :: Too much bulk for " + parentPawn.ToString() + ", " + (parentPawn.IsColonist ? "is colonist" : "is not colonist"));
                 if (parentPawnInt.IsColonist)
                 {
                     if (this.parent.Position.InBounds())

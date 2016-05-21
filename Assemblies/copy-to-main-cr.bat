@@ -1,0 +1,1 @@
+copy "CombatRealism.dll" "..\..\CombatRealism-v1.6.5\Assemblies\CombatRealism.dll"
