@@ -1,0 +1,3 @@
+C:\Program Files (x86)\RimWorld1135Win\Mods\CombatRealism-RD\Assemblies\CombatRealism.dll
+C:\Program Files (x86)\RimWorld1135Win\Mods\CombatRealism-RD\Source\CombatRealism\obj\Debug\Combat_Realism.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\RimWorld1135Win\Mods\CombatRealism-RD\Source\CombatRealism\obj\Debug\CombatRealism.dll

@@ -394,14 +394,17 @@ namespace Combat_Realism
             // Remove items from inventory if we're over the bulk limit
             while(availableBulk < 0 && container.Count > 0)
             {
-                if (this.parent.Position.InBounds())
+                if (parentPawnInt.IsColonist)
                 {
-                    Thing droppedThing;
-                    container.TryDrop(container.Last(), this.parent.Position, ThingPlaceMode.Near, 1, out droppedThing);
-                }
-                else
-                {
-                    container.Remove(container.Last());
+                    if (this.parent.Position.InBounds())
+                    {
+                        Thing droppedThing;
+                        container.TryDrop(container.Last(), this.parent.Position, ThingPlaceMode.Near, 1, out droppedThing);
+                    }
+                    else
+                    {
+                        container.Remove(container.Last());
+                    }
                 }
             }
         }
