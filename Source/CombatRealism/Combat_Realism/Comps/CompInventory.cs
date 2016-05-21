@@ -392,6 +392,7 @@ namespace Combat_Realism
             base.CompTick();
             //Log.Message("CR-RD :: post-base.comptick");
             // Remove items from inventory if we're over the bulk limit
+            /*
             while (availableBulk < 0 && container.Count > 0)
             {
                 Log.Message("CR-RD :: Too much bulk for " + parentPawn.ToString() + ", " + (parentPawn.IsColonist ? "is colonist" : "is not colonist"));
@@ -408,6 +409,7 @@ namespace Combat_Realism
                     }
                 }
             }
+            */
         }
     }
 }
