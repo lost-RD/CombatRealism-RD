@@ -4,3 +4,4 @@ C:\Program Files (x86)\RimWorld1135Win\Mods\CombatRealism-RD\Source\CombatRealis
 C:\Program Files (x86)\RimWorld1135Win\Mods\CombatRealism-RD\Source\CombatRealism\obj\Release\CombatRealism.pdb
 C:\Program Files (x86)\RimWorld1135Win\Mods\CombatRealism-RD\Assemblies\CombatRealism.dll
 C:\Program Files (x86)\RimWorld1135Win\Mods\CombatRealism-RD\Assemblies\CombatRealism.pdb
+C:\Program Files (x86)\RimWorld1135Win\Mods\CombatRealism-RD\Source\CombatRealism\obj\Release\Combat_Realism.csprojResolveAssemblyReference.cache

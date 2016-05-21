@@ -388,9 +388,9 @@ namespace Combat_Realism
                 }
                 initializedLoadouts = true;
             }
-            Log.Message("CR-RD :: pre-base.comptick");
+            //Log.Message("CR-RD :: pre-base.comptick");
             base.CompTick();
-            Log.Message("CR-RD :: post-base.comptick");
+            //Log.Message("CR-RD :: post-base.comptick");
             // Remove items from inventory if we're over the bulk limit
             while (availableBulk < 0 && container.Count > 0)
             {
