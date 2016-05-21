@@ -152,6 +152,8 @@ namespace Combat_Realism
             }
 
             //Assign suppressed status and interrupt activity if necessary
+            /*
+             * Disabled because suppression works counter-intuitively
             if (!this.isSuppressed && this.currentSuppressionInt > this.suppressionThreshold)
             {
                 this.isSuppressed = true;
@@ -168,6 +170,7 @@ namespace Combat_Realism
                     Log.Error("Trying to suppress non-pawn " + this.parent.ToString() + ", this should never happen");
                 }
             }
+            */
         }
 
         public override void CompTick()

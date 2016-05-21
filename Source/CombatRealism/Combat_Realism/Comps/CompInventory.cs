@@ -388,14 +388,14 @@ namespace Combat_Realism
                 }
                 initializedLoadouts = true;
             }
-
+            Log.Message("CR-RD :: pre-base.comptick");
             base.CompTick();
-
+            Log.Message("CR-RD :: post-base.comptick");
             // Remove items from inventory if we're over the bulk limit
-            while(availableBulk < 0 && container.Count > 0)
+            while (availableBulk < 0 && container.Count > 0)
             {
                 Log.Message("CR-RD :: Too much bulk for " + parentPawn.ToString() + ", " + (parentPawn.IsColonist ? "is colonist" : "is not colonist"));
-                if (parentPawnInt.IsColonist)
+                if (parentPawn.IsColonist)
                 {
                     if (this.parent.Position.InBounds())
                     {

@@ -1,1 +1,1 @@
-copy "CombatRealism.dll" "..\..\CombatRealism-v1.6.5\Assemblies\CombatRealism.dll"
+copy /Y "CombatRealism.dll" "..\..\CombatRealism-v1.6.5\Assemblies\CombatRealism.dll"
